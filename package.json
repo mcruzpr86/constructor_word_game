@@ -1,0 +1,23 @@
+{
+  "name": "constructor_word_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcruzpr86/constructor_word_game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcruzpr86/constructor_word_game/issues"
+  },
+  "homepage": "https://github.com/mcruzpr86/constructor_word_game#readme",
+  "dependencies": {
+    "inquirer": "^7.2.0"
+  }
+}
