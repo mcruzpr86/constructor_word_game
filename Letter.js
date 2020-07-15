@@ -4,6 +4,7 @@ function Letter(char) {
 
     //method
     this.showBlanks = function () {
+  
         if (this.guessedWord) {
             return this.char
         } else {
@@ -12,7 +13,10 @@ function Letter(char) {
 
     }
     this.checkGuess = function (userGuess) {
-        if (userGuess === this.char) {
+        console.log('checking')
+        console.log(char)
+        console.log('guess inside letter constructor',userGuess)
+        if (userGuess.toLowerCase() === this.char.toLowerCase()) {
             this.guessedWord = true
         }
     }
